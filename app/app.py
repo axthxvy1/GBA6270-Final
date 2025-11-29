@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from the group 7! This is our Docker + Jenkins + Terraform pipeline! We are currently automating!"
+    return "Hello from the group 7! This is our Docker + Jenkins + Terraform pipeline! We are currently "
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
